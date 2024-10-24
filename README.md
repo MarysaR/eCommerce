@@ -1,6 +1,16 @@
-# php8.3, Symfony 7 et mySQL
+# Projet eCommerce - Symfony 7, PHP 8.3 et MySQL
 
-## Mathieu HEITZMANN & Marysa RÉGENT
+## Auteurs
+- Mathieu HEITZMANN
+- Marysa RÉGENT
+
+## Prérequis
+- PHP 8.3
+- Composer
+- Symfony CLI
+- MySQL
+
+## Installation
 
 - Créer un nouveau projet : symfony new --webapp eCommerce
 - Lancer le server php : php -S 127.0.0.1:8000 -t public/ 
