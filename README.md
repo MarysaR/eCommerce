@@ -10,26 +10,26 @@
 #### https://symfony.com/doc/current/setup/symfony_server.html#getting-started
 
 
-# AssetMapper
+### AssetMapper
 En mode production, lancer la commande suivante pour copier tout le contenu du dossier assets dans le dossier public :
 
 php bin/console asset-map:compile 
 
 #### https://symfony.com/doc/current/frontend/asset_mapper.html
 
-# mySQL : 
+### mySQL : 
 Géré avec phpMyAdmin 
 #### http://localhost/phpmyadmin
 
-# Bootstrap:
+### Bootstrap:
 php bin/console importmap:require bootstrap
 
 Dans le fichier assets/app.js et ajouter les lignes suivantes :
 - import 'bootstrap/dist/css/bootstrap.min.css';
 - import 'bootstrap';
 
-# Tailwind : 
-## Installation 
+### Tailwind : 
+#### Installation 
 composer require symfonycasts/tailwind-bundle
 php bin/console tailwind:init
 php bin/console tailwind:build (--watch, optionnel)
