@@ -25,8 +25,8 @@ Géré avec phpMyAdmin
 php bin/console importmap:require bootstrap
 
 Dans le fichier assets/app.js et ajouter les lignes suivantes :
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap';
+- import 'bootstrap/dist/css/bootstrap.min.css';
+- import 'bootstrap';
 
 # Tailwind : 
 ## Installation 
