@@ -13,7 +13,7 @@ class ProductController extends AbstractController
   {
     return $this->render('product/product.html.twig', [
 
-      'product' => 'Produits',
+      'product' => [],
 
     ]);
   }

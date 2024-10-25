@@ -4,6 +4,19 @@
 
 {% block body %}
 
-<h1>{{ product }}</h1>
+{% if product is empty %}
+    <p>Aucun produit disponible.</p>
+{% else %}
+    <ul>
+        {% for item in product %}
+            <li>{{ item.name }} - {{ item.price }} €</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+{# <h1>{{ product.name }}</h1>
+<p>Prix : {{ product.price }} €</p>
+<p>Description : {{ product.description }}</p> #}
+
 
 {% endblock %}
